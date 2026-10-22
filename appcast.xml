@@ -2,6 +2,15 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>Research Rings 1.17.2</title>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.17.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 22 Oct 2026 13:10:49 +0000</pubDate>
+      <description>先选择活动类型，再选择对应项目或论文；支持同类别切换，取消不打断计时；禁止空白名称开始活动。</description>
+      <enclosure url="https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.17.2-8.zip" length="4115242" type="application/octet-stream" sparkle:edSignature="BiZEOUSCu+nmK58nPzEGFvABATu1jN7pjiFz7sntEs7bFT0earMLSwtMtdwiF/NFRuv67M12VUwYy1jHS1IMAw==" />
+    </item>
+    <item>
       <title>Research Rings 1.17.1</title>
       <sparkle:version>7</sparkle:version>
       <sparkle:shortVersionString>1.17.1</sparkle:shortVersionString>

@@ -6,15 +6,15 @@ Research Rings 提供论文阅读篇数、科研时间和 Workflow 优化时间�
 
 ## 安装与更新
 
-当前版本：**1.17.1（构建 7）**。
+当前版本：**1.17.2（构建 8）**。
 
-[下载 Research Rings for macOS](https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.17.1-7.zip) · [SHA-256 校验和](https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.17.1-7.zip.sha256)
+[下载 Research Rings for macOS](https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.17.2-8.zip) · [SHA-256 校验和](https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.17.2-8.zip.sha256)
 
 **已经安装：优先使用「更多 → 检查更新…」或设置页的检查更新。** 下载、签名验证、替换与重启由 App 完成，数据保存在原容器中。当前手动检查，不在后台自动安装。
 
 首次安装或更新故障回退才下载 ZIP，解压后将 `Research Rings.app` 放入「应用程序」，只保留一个正式 App。
 
-当前支持搜索 Zotero 论文直接开始阅读；本机 Zotero 设为 `/inreading` 也会开始计时，Ring 选择论文会回写在读，`/read` 自动结束该篇、关联耗时并更新圆环。双向操作需要插件 0.3.0 和 Zotero 运行，过期或远端操作不自动启动本机计时。科研与 Workflow 可选择外部导入的项目标签，App 只保存名称，不读取 Obsidian 笔记。渐变圆环、逐篇用时、平均值与最近 20 篇趋势继续保留。
+当前支持搜索 Zotero 论文直接开始阅读；本机 Zotero 设为 `/inreading` 也会开始计时，Ring 选择论文会回写在读，`/read` 自动结束该篇、关联耗时并更新圆环。双向操作需要插件 0.3.0 和 Zotero 运行，过期或远端操作不自动启动本机计时。先点击活动类型，再选择对应项目或 Zotero 论文；科研只显示科研标签，Workflow 只显示开发标签。当前活动支持同类别切换，确认前计时保持，返回不打断。手动填写名称时不可为空。科研与 Workflow 可选择外部导入的项目标签，App 只保存名称，不读取 Obsidian 笔记。渐变圆环、逐篇用时、平均值与最近 20 篇趋势继续保留。
 
 本机已通过内置更新完成 1.15 → 1.16 → 1.17 → 1.17.1，原有记录、目标、配置与 Zotero 文件夹授权保留；已验证双向计时、暂停不累计、回传去重和标签计时。临时论文已回收，测试计时及自动生成的未引用候选已清理。第二台实体 Mac 仍待验收。
 
