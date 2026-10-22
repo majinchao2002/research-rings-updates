@@ -1,6 +1,6 @@
 # Research Rings 更新分发
 
-此仓库只分发 Research Rings 的 macOS 安装包、版本说明和 Sparkle 更新订阅；源码在独立私有仓库维护。
+此仓库分发 Research Rings 的 macOS 安装包与 Sparkle 订阅，以及 Zotero 插件 XPI、SHA-256 和原生更新清单；两个源码仓库继续私有。
 
 Research Rings 提供论文阅读篇数、科研时间和 Workflow 优化时间三个每日目标圆环，可独立使用，也可连接 Zotero 阅读状态。
 
@@ -23,3 +23,20 @@ Research Rings 提供论文阅读篇数、科研时间和 Workflow 优化时间�
 - 本仓库不包含用户数据库、论文记录、同步文件夹或签名私钥。
 
 发布由维护者确认验证结果后进行，不直接将每次开发构建推给使用者。
+
+## Zotero 插件
+
+当前版本：**0.2.2**，要求 **Zotero 10**（本机实测 10.0.6）。不需要 GitHub 登录、付费账号、MCP 或额外更新器。
+
+[下载 Zotero 插件](https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/zotero/research-rings-zotero-0.2.2.xpi) · [SHA-256 校验和](https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/zotero/research-rings-zotero-0.2.2.xpi.sha256)
+
+首次安装：Zotero「工具 → 插件 → 右上角齿轮 → Install Plugin From File…」，选择 XPI。点 Research Rings 插件名称进入详情，将 **Allow automatic updates → On**。此后由 Zotero 定期检查并安装新版；插件更新与 Mac App 更新独立。
+
+**0.2.0 及以前的迁移**：旧版更新地址指向私有仓库，不能自行发现公开新版。覆盖安装一次 0.2.2，保持同一插件 ID 即可保留配置和历史，不要卸载或删除数据。新设备也先安装本页 XPI，再选择已有联动文件夹。
+
+已在本机从 0.2.1 通过 Zotero 原生更新至 0.2.2，并确认自动更新 On、安装包校验一致、插件历史与文件夹连接保留。第二台实体 Mac 尚待验收。App 1.16 的论文选择功能仍在独立验收，不因插件发布而宣称已交付。
+
+- 更新清单：`https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/zotero/update.json`
+- XPI 使用 HTTPS 下载，由 Zotero 按清单中的 SHA-256 验证；与 Mac App 的 Sparkle Ed25519 签名分开。
+- 公开包仅含 manifest、bootstrap 和桥接运行代码，不含论文、笔记、用户配置或凭据。XPI 中的 JavaScript 可被查看，私有源码仓库并不使已分发运行代码保密。
+- 已发布版本不可替换内容；修复时提升版本，发布新包与更新清单。
