@@ -2,6 +2,15 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>Research Rings 1.16.0</title>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.16.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 22 Oct 2026 12:12:54 +0000</pubDate>
+      <description>支持搜索选择 Zotero 论文开始阅读计时，并自动关联阅读耗时；科研和 Workflow 支持选择外部导入的标签名。</description>
+      <enclosure url="https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.16.0-5.zip" length="4034708" type="application/octet-stream" sparkle:edSignature="Dj3i0IA+qY652LK0gNMZfE1GaESJbqzcS+p56EkRTvOoj67D8n08KEXMeq9wlMCVfMLSpR2j2XF0jGMx2bv+CQ==" />
+    </item>
+    <item>
       <title>Research Rings 1.15.0</title>
       <sparkle:version>4</sparkle:version>
       <sparkle:shortVersionString>1.15.0</sparkle:shortVersionString>
