@@ -2,6 +2,15 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>Research Rings 1.17.0</title>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.17.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 22 Oct 2026 12:27:00 +0000</pubDate>
+      <description>双向阅读联动：Zotero 改为在读开始计时，Ring 选择论文回写在读；已读结束该篇并关联耗时。支持从外部标签开始科研与 Workflow 计时。</description>
+      <enclosure url="https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.17.0-6.zip" length="4072971" type="application/octet-stream" sparkle:edSignature="XaOEGQlHWLq4xNaKfgyx/EJpfREHUeqczI7j9eL6dJ56ylvE2X0ZvMQGwXaoKUi+iAKd/4xEjzWTQqfkiK6lBw==" />
+    </item>
+    <item>
       <title>Research Rings 1.16.0</title>
       <sparkle:version>5</sparkle:version>
       <sparkle:shortVersionString>1.16.0</sparkle:shortVersionString>
