@@ -6,7 +6,13 @@ Research Rings 提供论文阅读篇数、科研时间和 Workflow 优化时间�
 
 ## 安装与更新
 
-首个正式更新包准备中。安装带更新功能的版本后，可通过菜单栏「更多 → 检查更新…」或设置页检查并安装后续版本。安装更新替换同一个 App，科研数据保存在原有本地容器中。
+当前版本：**1.14.0（构建 3）**。
+
+[下载 Research Rings for macOS](https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.14.0-3.zip) · [SHA-256 校验和](https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.14.0-3.zip.sha256)
+
+解压后将 `Research Rings.app` 放入「应用程序」，替换旧版即可。之后可通过「更多 → 检查更新…」或设置页下载、验证并安装后续版本。安装更新替换同一个 App，科研数据保存在原有本地容器中。当前仅手动检查，不自动在后台安装。
+
+本机已实际验证从构建 2 更新到构建 3、自动替换并重启，研究记录、每日目标、设置和 Zotero 文件夹授权保留。新版同时修复手动论文记录点击取消时外层面板消失的问题，取消与 Esc 均返回今日圆环。
 
 - 系统要求：macOS 14 或更高，Apple Silicon / Intel。
 - 更新订阅：`https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/appcast.xml`
