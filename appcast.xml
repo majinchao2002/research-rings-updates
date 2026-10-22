@@ -1,6 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
+    <item>
+      <title>Research Rings 1.14.0</title>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.14.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Thu, 22 Oct 2026 08:44:14 +0000</pubDate>
+      <description>修复取消论文记录时面板消失，优化圆环与编辑界面，加入 App 内签名更新。</description>
+      <enclosure url="https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.14.0-3.zip" length="3766923" type="application/octet-stream" sparkle:edSignature="A7zteNFetfsbwsstWYYrHhRAudmI+oJASIc6kzQR5LPZYaT5HG7JVRZimjMj6w0Wpme3pjddGs0LKMRdNmlhAA==" />
+    </item>
     <title>Research Rings</title>
     <link>https://github.com/majinchao2002/research-rings-updates</link>
     <description>Research Rings macOS updates</description>
