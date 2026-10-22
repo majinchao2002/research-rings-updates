@@ -3,6 +3,17 @@
     "research-rings@majinchao2002.github.io": {
       "updates": [
         {
+          "version": "0.3.0",
+          "update_link": "https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/zotero/research-rings-zotero-0.3.0.xpi",
+          "update_hash": "sha256:cb5d75ffbc6a165e1c2510b13ce7c6424e3299b5d64ae990dab1881b02ec8b95",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "10.0",
+              "strict_max_version": "10.*"
+            }
+          }
+        },
+        {
           "version": "0.2.2",
           "update_link": "https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/zotero/research-rings-zotero-0.2.2.xpi",
           "update_hash": "sha256:047e167fa5f7ad30a6dfe0c886e0abfd0e2546488bc82d35ddc641af194f2153",
