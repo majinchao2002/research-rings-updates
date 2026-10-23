@@ -2,6 +2,15 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>Research Rings 1.20.3</title>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>1.20.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Fri, 23 Oct 2026 12:01:38 +0000</pubDate>
+      <description>菜单栏新增按活动类别着色的累计计时，支持暂停标记与自动收起。</description>
+      <enclosure url="https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.20.3-17.zip" length="4729743" type="application/octet-stream" sparkle:edSignature="mfZ6HmvDJwhWivmCZedoyf7OA111yqMfRrVC0yrlN8ijcqlnA2gZU6ZayZnCRQ5QgFDLWowDH1ZeqRt6xcQ5DA==" />
+    </item>
+    <item>
       <title>Research Rings 1.20.2</title>
       <sparkle:version>16</sparkle:version>
       <sparkle:shortVersionString>1.20.2</sparkle:shortVersionString>
