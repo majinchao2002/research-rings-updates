@@ -2,6 +2,15 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>Research Rings 1.20.0</title>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>1.20.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Fri, 23 Oct 2026 10:44:37 +0000</pubDate>
+      <description>改进项目选择界面与独立工作区，新增活动统计和记录修正，修复保存失败时的记录恢复。</description>
+      <enclosure url="https://raw.githubusercontent.com/majinchao2002/research-rings-updates/main/Research-Rings-1.20.0-14.zip" length="4672317" type="application/octet-stream" sparkle:edSignature="DfscQt0T8bFjfUA5qEhdaMIEqG+wCBX46vzlMoiYELbH70VtozrTa3LJWUDd7YQaffy3yJ8vBqITWEIBfFQiBA==" />
+    </item>
+    <item>
       <title>Research Rings 1.17.2</title>
       <sparkle:version>8</sparkle:version>
       <sparkle:shortVersionString>1.17.2</sparkle:shortVersionString>
